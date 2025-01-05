@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Header 2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="header">
-      <div class="logo">
-        LOGO
+      <div class="container display-flex flex-align-items-c flex-gap-16">
+        <div class="logo">LOGO</div>
+        <ul class="links flex-11a flex-gap-16 display-flex">
+          <li><a href="https://google.com">link-one</a></li>
+          <li><a href="https://google.com">link-two</a></li>
+          <li><a href="https://google.com">link-three</a></li>
+        </ul>
+        <div class="container flex-initial flex-gap-16 display-flex">
+          <button class="notifications flex-11a flex-align-self-center">
+            1 new notification
+          </button>
+          <div class="profile-image flex-11a"></div>
+        </div>
       </div>
-      <ul class="links">
-        <li><a href="https://google.com">link-one</a></li>
-        <li><a href="https://google.com">link-two</a></li>
-        <li><a href="https://google.com">link-three</a></li>
-      </ul>
-      <button class="notifications">
-        1 new notification
-      </button>
-      <div class="profile-image"></div>
     </div>
   </body>
 </html>
