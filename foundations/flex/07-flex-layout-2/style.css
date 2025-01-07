@@ -37,5 +37,15 @@ body {
 }
 
 .card-container .card {
-  flex: 1;
+  flex: 1 1 150px;
+  padding: 20px;
+}
+
+.container-content {
+  display: flex;
+}
+
+.container-content .card-container {
+  flex: 1 1 500px;
+  padding: 50px;
 }
