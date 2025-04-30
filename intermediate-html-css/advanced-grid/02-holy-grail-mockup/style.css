@@ -22,7 +22,7 @@
 .header {
   background-color: #393f4d;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
 
   /* header grid */
   display: grid;
@@ -73,7 +73,7 @@
 .nav {
   background-color: #c50208;
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 3;
 }
 
 .nav ul {
@@ -90,7 +90,7 @@
 .article {
   background-color: #bccbde;
   grid-column-start: 2;
-  grid-column-end: span 3;
+  grid-column-end: 3;
 
   /* grid */
   display: grid;
@@ -126,7 +126,7 @@
 .footer {
   background-color: #393f4d;
   grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column-end: 3;
 }
 
 .footer p {
